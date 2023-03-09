@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Prashant Fitness</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<style>
+	/*css REset*/
+	body{
+		color: white;
+		margin: 0px;
+		padding: 0px;
+		background: url('h7.jpg');
+	}
+	.left{
+		position: absolute;
+		left: 32px;
+		top: 20px;
+		/*border: 2px solid red;*/
+	}
+	.left img{
+		width: 123px;
+	}
+	.left div{
+		line-height:19px ;
+		font-size:26 ;
+		text-align: center;
+	}
+	.mid{
+		display: block;
+		width: 33%;
+		margin: 20px auto;
+		/*border: 2px solid blue;*/
+
+	}
+	.right{
+		position: absolute;
+		right: 32px;
+		top: 20px;
+		display: inline-block;
+		/*border: 2px solid yellow;*/
+	}
+	.navbar{
+		display: inline-block;
+	}
+	.navbar li{
+		
+		display: inline-block;
+		font-size: 20px;
+	}
+	.navbar li a{
+		color: white;
+		text-decoration: none;
+		padding: 34 px 23px;
+	}
+	.navbar li a:hover,.navbar li a.active{
+		text-decoration: underline;
+		color: blue;
+		
+		}
+		.btn{
+			margin: 0px;
+			padding: 4px 14px;
+			cursor: pointer;
+			border: 2px solid grey;
+			border border-radius: 10px;
+			front size: 20px;
+		}
+		.btn:hover{
+			background color:skyblue ;
+		}
+		.container{
+			/*border: 2px solid green;*/
+			margin: 100px 80px;
+			padding: 65px ;
+			border-radius: 26px;
+			width: 33%;
+		}
+		.form_group input{
+			text-align: center;
+			border: 2px solid black;
+			display: block;
+			width: 375px;
+			padding: 1px;
+			font-size: 25px;
+			margin: 11px auto;
+			border-radius: 8px;
+		}
+		.container button{
+			display: block;
+			width: 33%;
+			margin: auto;
+		}
+</style>
+<body>
+	<header class="header">
+	<div class="left">
+		<img src="h3.jpg"> 
+		 <div>Prashant Fitness</div> 
+	</div>
+	<div class="mid">
+		<ul class="navbar">
+			<li><a href="#" class="active">Home</a></li>
+			<li><a href="#">About us</a></li>
+			<li><a href="#">Calculator fitness</a></li>
+			<li><a href="#">Contact us</a></li>
+		</ul>
+	</div>
+	<div class="right">
+		<button class="btn">Call us</button>
+		<button class="btn">Email us</button>
+	</div>
+	<div class="container">
+		<h1 align="center">Join the best gym of Delhi </h1>
+		<form action="nonaction.php">
+			<div class="form_group">
+				<input type="text" name="" placeholder="Enter your name">
+			</div>
+			<div class="form_group">
+				<input type="text" name="" placeholder="Enter your age">
+			</div>
+			<div class="form_group">
+				<input type="text" name="" placeholder="Enter your Gender">
+			</div>
+			<div class="form_group">
+				<input type="text" name="" placeholder="Enter your Contact no.">
+			</div>
+			<button class="btn">Submit</button>
+
+		</form>
+	</div>
+</header>
+</body>
+</html>
